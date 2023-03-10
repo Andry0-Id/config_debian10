@@ -1,11 +1,5 @@
 # /etc/fstab: static file system information.
 #
-# Use 'blkid' to print the universally unique identifier for a
-# device; this may be used with UUID= as a more robust way to name devices
-# that works even if disks are added and removed. See fstab(5).
-#
-# systemd generates mount units based on this file, see systemd.mount(5).
-# Please run 'systemctl daemon-reload' after making changes here.
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/sda2 during installation
@@ -15,6 +9,7 @@ UUID=3623-1AA0  /boot/efi       vfat    umask=0077      0       1
 # swap was on /dev/sda3 during installation
 UUID=7154253c-420e-4ecd-a21d-29d24ece698f none            swap    sw              0       0
 
+# Example : You can choose your PATH
 /home/{user}/Downloads/debian10/debian-10.13.0-amd64-DVD-1.iso /home/{user}/Downloads/debian10/1 iso9660 loop 0 0
 /home/{user}/Downloads/debian10/debian-10.13.0-amd64-DVD-2.iso /home/{user}/Downloads/debian10/2 iso9660 loop 0 0
 /home/{user}/Downloads/debian10/debian-10.13.0-amd64-DVD-3.iso /home/{user}/Downloads/debian10/3 iso9660 loop 0 0
