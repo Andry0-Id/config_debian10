@@ -1,4 +1,4 @@
-# config_debian10 for to be a repo offline
+# config_debian10 for to have a repo offline
 add "contrib main" offline in debian10
 
 1 - Get DVD installation Debian https://www.debian.org/CD/http-ftp/#stable
