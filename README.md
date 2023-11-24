@@ -1,4 +1,4 @@
-# Config Debian-10 Buster for to have a repo offline
+#Config Debian-10 Buster for to have a repo offline
 add "contrib main" offline in Debian-10.13-buster LTS
 
 ## Todo list
